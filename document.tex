@@ -1,0 +1,33 @@
+\documentclass[12pt]{article}
+
+% Include packages
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Write title
+\title{\textbf{(Document Title)}}
+\author{(Document Author) \\ (Author Association/Title)}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{1.0\textwidth}
+		\includegraphics[width=\textwidth]{load_diagram.pdf}
+	\end{subfigure}
+        \vspace{1em}
+	\begin{subfigure}{1.0\textwidth}
+		\includegraphics[width=\textwidth]{shear_diagram.pdf}
+	\end{subfigure}
+        \vspace{1em}
+	\begin{subfigure}{1.0\textwidth}
+		\includegraphics[width=\textwidth]{moment_diagram.pdf}
+	\end{subfigure}
+	\caption{Load, Shear, and Moment Diagrams}
+\end{figure}
+
+\end{document}
